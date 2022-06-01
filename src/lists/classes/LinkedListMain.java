@@ -25,7 +25,7 @@ public class LinkedListMain {
 		list.removeFromFront();
 		list.printList();
 		System.out.println(list.getSize());
-		// System.out.println(list.isEmpty());
+		 System.out.println(list.isEmpty());
 	}
 
 }

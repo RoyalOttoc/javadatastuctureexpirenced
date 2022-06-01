@@ -8,7 +8,7 @@ public class Employee {
 
 	private String firstName;
 	private String lastName;
-	private int id;
+	public int id;
 
 	/*
 	 * (non-Javadoc)
@@ -90,9 +90,9 @@ public class Employee {
 		this.id = id;
 	}
 
+
 	@Override
 	public String toString() {
 		return "Employee [firstName=" + firstName + ", lastName=" + lastName + ", id=" + id + "]";
 	}
-
 }
